@@ -1,0 +1,8 @@
+<launch>
+  <node pkg="rosbag" type="play" name="rosbag" required="true" args="-d 5 /home/atakan/dsii-sandvik/data.bag"/>
+  <node name="extract" pkg="image_view" type="extract_images" respawn="false" required="true" output="screen" cwd="ROS_HOME">
+  <param name="sec_per_frame" value="0.02"/>
+  <param name="filename_format" value="frame%05d.jpg"/>
+    <remap from="image" to="/zed2/zed_node/right/image_rect_color"/>
+  </node>
+</launch>
