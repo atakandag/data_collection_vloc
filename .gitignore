@@ -1,0 +1,3 @@
+#exclude datasets and bag files
+/Datasets/
+/bag_files/

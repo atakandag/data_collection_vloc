@@ -1,2 +1,5 @@
-roslaunch export_right.launch
-mv ~/.ros/frame*.jpg images_right/
+#!/bin/bash
+#export left images
+roslaunch export_right.launch bag_file:=$2
+#move the images to the folder
+mv ~/.ros/frame*.jpg $1
