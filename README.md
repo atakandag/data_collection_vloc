@@ -8,9 +8,11 @@ Ouster OS1 LiDAR <https://github.com/ouster-lidar/ouster_example>
 RTAB-Map <http://introlab.github.io/rtabmap/>
 
 ##Let's get started
+
 Plug in the LiDAR so that ethernet cable is connected to the PC and the LiDAR has power. Also, connect ZED2 camera to PC.
 
 ##Synchronizing LiDAR with PC
+
 This is needed if you want your timestamps of point clouds obtained from LiDAR to be synchronized with the recording PC clock. 
 From the network settings, change IPv4 method to Link-Local Only. Run the following to start synchronization.
 ```bash
@@ -34,5 +36,6 @@ This is needed if you want to export your image and point cloud files. You can n
 ```
 Wait until all extractions completed. Now you can use your dataset.
 
-##Using RTAB-Map for 3D Reconstruction of the collected dataset.
+##Using RTAB-Map for 3D Reconstruction of the collected dataset
+
 Coming Soon..
