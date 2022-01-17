@@ -22,7 +22,7 @@ Wait until the synchronization done (until seeing "assuming ground role" log).
 
 ##Collect the data
 
-Run the following command to collect the data. To learn the udp_dest_ip adress, run ifconfig command and check the inet adress of enp2s0f1.
+Run the following command to collect the data. To learn the udp_dest_ip adress, run ifconfig command and check the inet adress of enp2s0f1. Also, remember to check your sensor_hostname is correct in the file [collect_data.sh](https://github.com/atakandag/data_collection_vloc/blob/main/collect_data.sh)
 ```bash
 ./collect_data.sh <udp_dest_ip>
 ```
