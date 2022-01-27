@@ -11,13 +11,13 @@ RTAB-Map <http://introlab.github.io/rtabmap/>
 
 ## Let's get started
 
-Plug in the LiDAR so that ethernet cable is connected to the PC and the LiDAR has power. Also, connect ZED2 camera to PC.
+Plug in the LiDAR so that ethernet cable is connected to the PC and the LiDAR has power. Also, connect ZED2 camera to PC. From the network settings, change IPv4 method to Link-Local Only.
 
 ## Synchronizing LiDAR with PC
 
 This is needed if you want your timestamps of point clouds obtained from LiDAR to be synchronized with the recording PC clock. 
 
-From the network settings, change IPv4 method to Link-Local Only. Run the following to start synchronization.
+Run the following to start synchronization.
 
 ```bash
 ./start_sync.sh
