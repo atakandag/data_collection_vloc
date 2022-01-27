@@ -7,6 +7,8 @@ Zed2 SDK <https://www.stereolabs.com/developers/release/>
 
 Ouster OS1 LiDAR <https://github.com/ouster-lidar/ouster_example>
 
+CUDA 10.2+ (needed to run Zed2)
+
 RTAB-Map <http://introlab.github.io/rtabmap/>
 
 ## Let's get started
