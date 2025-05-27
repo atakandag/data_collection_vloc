@@ -47,7 +47,3 @@ This is needed if you want to export your image and point cloud files. You can n
 ```
 
 Wait until all extractions completed. Now you can use your dataset.
-
-## Using RTAB-Map for 3D Reconstruction of the collected dataset
-
-Coming Soon..
